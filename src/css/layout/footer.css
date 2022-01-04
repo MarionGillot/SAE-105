@@ -3,8 +3,8 @@
 .footer__container {
     width: 375px;
     height: 160px;
-    top: 1600px;
-    position: absolute; 
+    margin-top: 50px;
+    position: relative; 
     }
 
 #facebook {
@@ -33,7 +33,14 @@
     top: 85px;
 }
 #informations {
-
     position: absolute;
-    top: 10px;
+    top: 5px;
+    margin-left: 20px;
+}
+
+#nom {
+    position: absolute;
+    top: 43px;
+    left: 40px;
+    margin-left: 20px;
 }

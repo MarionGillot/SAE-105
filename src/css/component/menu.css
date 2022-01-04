@@ -100,7 +100,7 @@
   .menu
   {
     visibility:hidden;
-    background-color: rgba(251, 243, 240, 1);
+    background-color: rgba(101, 116, 125, 1);
     position: fixed;
     top: 0;
     left: 0;
@@ -119,4 +119,3 @@
     visibility: visible;
     transform: translateX(0);
   }
-  
