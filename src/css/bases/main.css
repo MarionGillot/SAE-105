@@ -1,0 +1,143 @@
+/*background et couleurs des textes sur l'ensemble du site */
+
+body { 
+    background-color: rgba(16, 16, 18, 1);
+    color: white;
+}
+
+/* Transforme le modèle de boite par défaut pour inclure dans la largeur et la hauteur, les marges intérieures et les bordures. */
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  figcaption {
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+  }
+
+.header {
+    padding-left: var(--space3x);
+    padding-right: var(--space3x);
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* police d'écriture sur l'ensemble du site */ 
+
+*p, *h1, *h2, *h3 {
+  font-family: 'El Messiri', sans-serif;
+}
+
+/* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Pour enlever l'apparence par défaut des listes */
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Classe générique permettant de définir les marges sur les cotés */
+.header {
+  padding-left: var(--space3x);
+  padding-right: var(--space3x);
+}
+
+/* Menu */
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.noscroll,
+.noscroll body {
+overflow: hidden;
+}
+
+/* Index */
+
+#Layer4 {
+  position: absolute;
+  top: 580px;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 28px;
+}
+
+.section1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
+}
+
+.TitreArticles {
+  position: relative;
+  top: 10px;
+}
+.LivreTexte {
+  left: 170px;
+  position: absolute;
+  top: 890px;
+  Font-size: 18px;
+}
+
+#ligne3 {
+  position: absolute;
+  width: 99px;
+  height: 0px;
+  left: 138px;
+  top: 1185px;
+  
+  border: 1px solid #FFFFFF;
+}
+
+
+.section2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 105px;
+}
+
+.FilmTexte {
+  left: 190px;
+  position: absolute;
+  top: 1310px;
+  font-size: 18px;
+
+}
+
+.FilmAchat {
+  position: absolute;
+  top: 1520px; 
+  font-size: 18px;
+}
+
+#ligne5 {
+  position: absolute;
+  width: 99px;
+  height: 0px;
+  left: 138px;
+  top: 1590px;
+
+  border: 1px solid #FFFFFF;
+}

@@ -1,0 +1,43 @@
+/* page d'acceuil */
+
+#Layer1 {
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+#Layer2 {
+   position: absolute;
+   top: 220px; 
+   left: 120px;
+   font-family: 'El Messiri', sans-serif;
+}
+
+#Layer3 {
+    position: absolute;
+    top: 265px;
+    left: 180px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+#ligne1 {
+    position: absolute;
+    width: 162px;
+    height: 3px;
+    left: 0px;
+    top: 100px;
+    color: white;
+
+}
+
+#ligne2 {
+    position: absolute;
+    width: 162px;
+    height: 3px;
+    left: 213px;
+    top: 100px;
+    color: white;
+
+
+}

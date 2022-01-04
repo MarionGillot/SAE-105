@@ -1,0 +1,11 @@
+:root {
+
+/* Color styles */
+--fond: rgba(16, 16, 18, 1);
+--gris: rgba(101, 116, 125, 1);
+--gris-clair: rgba(209, 218, 221, 1);
+
+/* Text-size styles */
+--el-missiri-bold: 19px;
+--el-missiri-regular: 20px;
+}

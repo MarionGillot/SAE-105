@@ -1,0 +1,122 @@
+.menu {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    text-align: center;
+    height: 100vh;
+    font-size: 20px;
+    font-family: var(--montserrat-regular);
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul :first-child {
+    border-top: black 3px solid;
+    padding-top: 30px;
+  }
+  
+  .menu ul :nth-child(3) {
+    border-bottom: black solid 3px;
+    padding-bottom: 30px;
+  }
+  
+  .menu li {
+    margin: 40px 0;
+  }
+  
+  .menu h2 {
+    margin: 20px 0;
+  }
+  
+  .menu p:last-of-type {
+    background: center / contain no-repeat url("https://svgsilh.com/png-512/306433.png");
+    text-indent: -9999%;
+  }
+  
+  .nav-toggle
+  {
+    width: 38px;
+    height: 28px;
+    position: absolute;
+    top: 1.8%;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .nav-toggle-bar,.nav-toggle-bar::before,.nav-toggle-bar::after
+  {
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .nav-toggle-bar,.nav-toggle-bar::before,.nav-toggle-bar::after
+  {
+    content: "";
+    background-color: white;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    transition: all .6s ease-in-out;
+    z-index: 6;
+  }
+  
+  .nav-toggle-bar::before
+  {
+    top: -10px;
+  }
+  
+  .nav-toggle-bar::after
+  {
+    top: 10px;
+  }
+  
+  .menu-open .nav-toggle-bar
+  {
+    transform: rotate(135deg);
+  }
+  
+  .menu-open .nav-toggle-bar::before,.menu-open .nav-toggle-bar::after
+  {
+    transform: rotate(90deg);
+    top: 0;
+  }
+  
+  .menu
+  {
+    visibility:hidden;
+    background-color: rgba(251, 243, 240, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    transform: translateX(100vw);
+    transition: 0.6s;
+  }
+  
+  .menu-open .menu
+  {
+    visibility: visible;
+    transform: translateX(0);
+  }
+  
