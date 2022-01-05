@@ -80,16 +80,9 @@ overflow: hidden;
 /* Cacher les légendes */
 
 .legend1 {
-  left: 145px;
-  top: 1440px;
-  font-size: 17px;
-}
-
-.legend2 {
   left: 215px;
   top: 2100px;
   font-size: 18px;
-
 }
 
 .image img{
