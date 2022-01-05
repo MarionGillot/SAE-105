@@ -32,6 +32,3 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 @import "component/menu.css";
 @import "component/hero.css";
 
-/* fonction js */ 
-
-@import "fonction.js/fonction.js";

@@ -90,7 +90,6 @@ overflow: hidden;
 }
 
 
-
 .CitationLatin {
   left: 20px;
   top: 940px;
@@ -119,8 +118,8 @@ overflow: hidden;
 
 .TextHyperichose {
   left: 130px;
-  top: 2560px;
   font-size: 18px;
+  display: flex;
 }
 
 .Description3 {
@@ -130,30 +129,8 @@ overflow: hidden;
 
 /* À propos / Contact */
 
-#Apropos {
-  top: 680px;
- }
-
-
-#Rectangle1 {
-  width: 207px;
-  height: 35px;
-  left: 150px;
-  top: 1000px;
-  background: #D1DADD;
-}
-
-
-#Rectangle2 {
-  width: 207px;
-  height: 35px;
-  left: 150px;
-  top: 1131px;
-  background: #D1DADD;
-}
-
-#Rectangle3 {
-  left: 70px;
+#TitreApropos {
+  margin-top: 660px;
 }
 
 /* Images en tête des articles */
@@ -233,7 +210,7 @@ ul{
   font-size: 19px;
 }
 
-/* Introduction */
+/* Mise en forme de l'isntroduction */
 
 .introduction {
   left: 20px;
@@ -244,111 +221,41 @@ ul{
   color: #FFFFFF;
 }
 
-/* Caroussel */
+/* Lignes */
 
-.image img{
-	width: 100%;
-	z-index: 1;
-	position: relative;
-}
-		
-.texte13 {
-	position: relative;
-	text-align: center;
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	z-index: 2;
-	line-height: 5em;
-	color: black;
-	background-color: rgba(255, 255, 255, 0.55);
-	top: 0;
-	display: none;
-}		
-	
-.illustration {
-	grid-column: 2;
-	grid-row: 2;
-	width: 1000px;
-	height: 323px;
-	padding: 0px;
-	position: relative;
-	overflow: hidden;
+.Ligne {
+  position: absolute;
+  top: 225px; 
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
-.image14 {
-	width: 50%;
-	position: relative;
-	z-index: 2;
+
+/* carrousel */ 
+
+.images155 {
+  width: 6600px;
+  height: 410px;
+  left: 0; 
 }
 
-.image14 img{
-	width: 100%;
-	height: 100%;
-}
-		
-.texte14 {
-	position: absolute;
-	text-align: left;
-	width: 45%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-	line-height: 5em;
-	color: black;
-	background-color: rgba(255, 255, 255, 0.55);
-	top:0;
-	z-index: 1;
+.image155 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 127px;
+  height: 300px;
 }
 
-.texte14 h1 {
-	padding: 0;
-	margin: 0;
-	margin-left: 0.3em;
-	background-color: rgba(255, 255, 255, 0);
-	width: 100%;
-	color: black;
-}	
-	
-.texte14 p{
-	background-color: rgba(255, 255, 255, 0);
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	margin-left: 0.9em;
-	color: black;
-	font-family: Helvetica;
+figcaption {
+  background-color: #1B2222;
+  color: white;
 }
 
-.carrousel {
-	grid-column: 2;
-	grid-row: 2;
-	width: 540px;
-	padding: 0px;
-	position: relative;
-	overflow: hidden;
-}
-
-.droite15 {
-	grid-row: 2;
-	grid-column: 1;
-	width: 40px;
-}
-
-.images15 {
-	width: 6600px;
-	height: 323px;
-	left:0;
-}
-
-.images15 img{
-	width: 500px;
-	height: 323px;
-}
-
-.image15 {
-	position: absolute;
-	top:0;
-	left:0;
-	z-index: 0;
+.carrousel5 {
+  width: 127px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
 }
