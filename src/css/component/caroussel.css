@@ -1,0 +1,28 @@
+/* carrousel */ 
+
+.images155 {
+    width: 6600px;
+    height: 410px;
+    left: 0; 
+  }
+  
+  .image155 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 127px;
+    height: 300px;
+  }
+  
+  figcaption {
+    background-color: #1B2222;
+    color: white;
+  }
+  
+  .carrousel5 {
+    width: 127px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
