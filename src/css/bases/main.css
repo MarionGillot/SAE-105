@@ -240,7 +240,7 @@ margin-left: 20px;
 /* Images en tête des articles */
 
 .accueil {
-  background-image: url('../../../public/img/principale.png');
+  background-image: url('../../../public/img/img_accueil.png');
   background-repeat: no-repeat;
 }
 
@@ -249,7 +249,7 @@ main {
 }
 
 .element {
-  background-image: url('../../../public/img/principelement.webp');
+  background-image: url('../../../public/img/img_element.webp');
   background-repeat: no-repeat;
 }
 
@@ -258,7 +258,7 @@ main {
 }
   
 .film {
-  background-image: url('../../../public/img/L\'homme\ à\ l\'envers\ 1.webp');
+  background-image: url('../../../public/img/img_film.webp');
   background-repeat: no-repeat;
 }
 
@@ -267,7 +267,7 @@ main {
 }
 
 .livre {
-  background-image: url('../../../public/img/principlivre.png');
+  background-image: url('../../../public/img/img_livre.png');
   background-repeat: no-repeat;
 }
 
@@ -276,7 +276,7 @@ main {
 }
 
 .Contact{
-  background-image: url('../../../public/img/test12000.png');
+  background-image: url('../../../public/img/img_contact.png');
   background-repeat: no-repeat;
 }
 
@@ -285,7 +285,7 @@ main {
 }
 
 .AutresProjets{
-  background-image: url('../../../public/img/neil-rosenstech-472379-unsplash\ 1.webp');
+  background-image: url('../../../public/img//img_autres_projets.png');
   background-repeat: no-repeat;
 }
 
