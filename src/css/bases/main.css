@@ -31,7 +31,6 @@ img {
     box-sizing: border-box;
 }
 
-
 /* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
 button {
   -webkit-appearance: none;
@@ -40,13 +39,6 @@ button {
   background: none;
   padding: 0;
   cursor: pointer;
-}
-
-/* Pour enlever l'apparence par défaut des listes */
-.list-unstyled {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 /* Classe générique permettant de définir les marges sur les cotés */
@@ -74,12 +66,6 @@ overflow: hidden;
 /* Index */
 
 
-.section1 {
-  margin-left: 20px;
-  margin-right: 20px;
-  top: 80px;
-}
-
 .TitreArticles {
   position: relative;
   top: 10px;
@@ -90,13 +76,6 @@ overflow: hidden;
   Font-size: 18px;
 }
 
-
-
-.section2 {
-  margin-left: 20px;
-  margin-right: 20px;
-  top: 105px;
-}
 
 .FilmTexte {
   left: 190px;
@@ -110,28 +89,6 @@ overflow: hidden;
   font-size: 18px;
 }
 
-
-#IntroductionElement {
-
-  left: 20px;
-  top: 580px;
-  margin-right: 20px;
-  font-family: El Messiri;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-.section4 {
-  margin-left: 20px;
-  margin-right: 20px;
-  top: 390px; 
-  font-size: 19px;
-}
-
-.Racines {
-top: 900px;
-margin-left: 20px;
-}
 
 
 .CitationLatin {
@@ -152,29 +109,12 @@ margin-left: 20px;
   font-size: 17px;
 }
 
-.Section5 {
-  margin-left: 20px;
-  top: 120px;
-  margin-right: 20px;
-  font-size: 19px;
-}
-
-
 
 .Description2 {
   left: 215px;
   top: 2100px;
   font-size: 18px;
 
-}
-
-
-
-.Section6 {
-  margin-left: 20px;
-  top: 120px;
-  margin-right: 20px;
-  font-size: 19px;
 }
 
 .TextHyperichose {
@@ -188,33 +128,12 @@ margin-left: 20px;
   font-size: 15px;
 }
 
-.Section7 {
-  margin-left: 20px;
-  top: 60px;
-  margin-right: 20px;
-  font-size: 19px;
-}
-
-
-.Section8 {
-  margin-left: 20px;
-  top: 90px;
-  margin-right: 20px;
-  font-size: 19px;
-}
-
 /* À propos / Contact */
 
 #Apropos {
   top: 680px;
  }
 
-.SectionA {
-  margin-left: 20px;
-  top: 90px;
-  margin-right: 20px;
-  font-size: 19px;
-}
 
 #Rectangle1 {
   width: 207px;
@@ -285,7 +204,7 @@ main {
 }
 
 .AutresProjets{
-  background-image: url('../../../public/img//img_autres_projets.png');
+  background-image: url('../../../public/img/img_autres_projets.png');
   background-repeat: no-repeat;
 }
 
@@ -293,11 +212,16 @@ main {
   margin-top: 500px;
 }
 
-/* Autres Projets */
+/* Pour annuler la mise en forme des listes */
 
 ul{
   text-decoration: none;
   list-style-type: none;
+  text-align: center;
+}
+
+.liste {
+  margin-top: 800px
 }
 
 /* Marge */
@@ -305,8 +229,18 @@ ul{
 .section {
   margin-left: 20px;
   top: 90px;
-  margin-right: 20px;
+  margin-right: 60px;
   font-size: 19px;
 }
 
+/* Introduction */
+
+.introduction {
+  left: 20px;
+  top: 580px;
+  margin-right: 20px;
+  font-family: El Messiri;
+  font-size: 20px;
+  color: #FFFFFF;
+}
 

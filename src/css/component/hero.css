@@ -23,7 +23,7 @@
     width: 162px;
     height: 0px;
     left: 0px;
-    top: 170px;
+    margin-top: 10px;
     
     border: 1px solid #FFFFFF;
 }
@@ -93,11 +93,3 @@
     border: 1px solid #FFFFFF;
     }
 
-/* Article Livre */
-
-#test{
-    position: absolute;
-    top: 20px; 
-    left: 120px;
-    z-index: 5;
-}
