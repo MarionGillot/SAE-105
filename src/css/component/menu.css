@@ -9,6 +9,7 @@
     height: 100vh;
     font-size: 20px;
     font-family: var(--montserrat-regular);
+    z-index: 5;
   }
   
   .menu ul {

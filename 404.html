@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="src/css/style.css" />
-    <script defer="" src="https://unkg.com/alpinejs@3.4/dist/cdn.min.js"></script>
-</head>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<title>404 - Page Non trouvée</title>
+<h1>Page Non trouvée</h1>
+<form action="https://duckduckgo.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:mmimontbeliard.com'">
+    <label for="q">Text à chercher :</label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>
 
 <header class="header">
     <div class="header__start">
@@ -44,3 +44,4 @@
 <div class="section">
 <p>Autrefois, pour connaître le nombre des caribous et savoir si la chasse serait bonne, les Inuit d'Amérique écoutaient hurler les loups. En Europe alors, ces mêmes hurlements étaient synonymes 
     de danger et inspiraient la peur. Le loup a aujourd'hui pratiquement disparu d'Europe occidentale.</p></div>
+

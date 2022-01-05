@@ -1,0 +1,80 @@
+/* Transforme le modèle de boite par défaut pour inclure dans la largeur et la hauteur, les marges intérieures et les bordures. */
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  figcaption {
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+  }
+
+.header {
+    padding-left: var(--space3x);
+    padding-right: var(--space3x);
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Images en tête des pages du site */
+
+.accueil {
+    background-image: url('../../../public/img/img_accueil.png');
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    margin-top: 500px;
+  }
+  
+  .element {
+    background-image: url('../../../public/img/img_element.webp');
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    margin-top: 500px;
+  }
+    
+  .film {
+    background-image: url('../../../public/img/img_film.webp');
+    background-repeat: no-repeat;
+  }
+
+  main {
+    margin-top: 500px;
+  }
+  
+  .livre {
+    background-image: url('../../../public/img/img_livre.png');
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    margin-top: 500px;
+  }
+  
+  .Contact{
+    background-image: url('../../../public/img/img_contact.png');
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    margin-top: 500px;
+  }
+  
+  .AutresProjets{
+    background-image: url('../../../public/img/img_autres_projets.png');
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    margin-top: 500px;
+  }
