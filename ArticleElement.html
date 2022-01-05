@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Element</title>
     <link rel="stylesheet" href="src/css/style.css" />
-    <script defer="" src="https://unkg.com/alpinejs@3.4/dist/cdn.min.js"></script>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonction.js"></script>
+
+
 </head>
 
 <body class="element">
@@ -67,11 +71,19 @@
     <p>L’explication remonte à la mythologie grecque. Il existait un roi nommé Lycaon qui aurait donné à Zeus de la chair humaine qui lui-même appréciait beaucoup. 
     Zeus furieux en apprenant la vérité, transforma lui et ses fils en loups. C’est de la que vient le vice et le désir pour la chair humaine des loups-garous.</p>
 
-    <img src="public/img/Lycaon.webp" alt="chasse">
 
-    <div class="Description1">
-    <p>Zeus chasse Lycaon</p></div>
-
+    <div class="exemples">
+        
+    </div>
+   
+    <div class="visionneuse"  >
+        <div class="image image13" 
+        x-on:mouseover="monterLegende();" 
+        x-on:mouseleave="descendreLegende();">
+            <img class="legende1image" src="public/img/Lycaon.webp" alt="chasse">
+            <p class="texte13">Zeus chasse Lycaon</p>
+        </div>
+    </div>
     <div id="ligne7"></div>
 
     <h2>Anéantir la bête</h2>
@@ -81,7 +93,8 @@
         qui consistait à exorciser le sujet qui invoquait de nombreuses prières et interventions chirurgicales pour libérer la bête.</p>
 
     <img src="public/img/plante_tueuse.webp" alt="plante">
-    <div class="Description2">
+
+    <div class="legend2">
     <p>Aconit Tue-Loup</p></div>
   
 

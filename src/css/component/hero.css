@@ -18,6 +18,8 @@
     left: 180px;
 }
 
+/* ligne sur la page d'accueil */
+
 #ligne1 {
     position: absolute;
     width: 162px;
@@ -56,6 +58,15 @@
     right: 0;
     bottom: 0;
 }
+
+.Ligne {
+    position: absolute;
+    top: 225px; 
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+  
 
  /* À propos / Contact */
 

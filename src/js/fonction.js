@@ -33,8 +33,29 @@ function carrouselprojet24() {
             if (ind == 1) return (2*delta)+d;
             if (ind == 2) return (3*delta)+(2*d);
             if (ind == 3) return (4*delta)+(3*d);
-			if (ind == 4) return (5*delta)+(4*d);
-            return (6*delta)+(5*d);
+            return (5*delta)+(4*d);
         }
     });
+}
+
+function monterLegende() {
+	texte13 = document.querySelector('.texte13');
+    document.querySelector('.texte13').style.display = "block";
+	return anime({
+		targets: '.texte13', 
+		translateY: '-5em', 
+		autoplay: false,
+		easing: 'linear',
+		duration: 200,
+	}).play;
+}
+
+function descendreLegende() {
+	return anime({
+		targets: '.texte13', 
+		translateY: '5em',
+		autoplay:false,
+		easing: 'linear',
+		duration: 200
+	}).play;
 }
