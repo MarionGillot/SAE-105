@@ -3,6 +3,7 @@
 body { 
     background-color: rgba(16, 16, 18, 1);
     color: white;
+    font-family: 'El Messiri', sans-serif;
 }
 
 /* Transforme le modèle de boite par défaut pour inclure dans la largeur et la hauteur, les marges intérieures et les bordures. */
@@ -30,11 +31,6 @@ img {
     box-sizing: border-box;
 }
 
-/* police d'écriture sur l'ensemble du site */ 
-
-*p, *h1, *h2, *h3 {
-  font-family: 'El Messiri', sans-serif;
-}
 
 /* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
 button {
@@ -77,17 +73,11 @@ overflow: hidden;
 
 /* Index */
 
-#Layer4 {
-  position: absolute;
-  top: 580px;
-  font-family: 'El Messiri', sans-serif;
-  font-size: 28px;
-}
 
 .section1 {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 80px;
+  top: 80px;
 }
 
 .TitreArticles {
@@ -96,58 +86,36 @@ overflow: hidden;
 }
 .LivreTexte {
   left: 170px;
-  position: absolute;
   top: 890px;
   Font-size: 18px;
 }
 
-#ligne3 {
-  position: absolute;
-  width: 99px;
-  height: 0px;
-  left: 138px;
-  top: 1185px;
-  
-  border: 1px solid #FFFFFF;
-}
 
 
 .section2 {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 105px;
+  top: 105px;
 }
 
 .FilmTexte {
   left: 190px;
-  position: absolute;
   top: 1310px;
   font-size: 18px;
 
 }
 
 .FilmAchat {
-  position: absolute;
   top: 1520px; 
   font-size: 18px;
 }
 
-#ligne5 {
-  position: absolute;
-  width: 99px;
-  height: 0px;
-  left: 138px;
-  top: 1590px;
-
-  border: 1px solid #FFFFFF;
-}
 
 #IntroductionElement {
-  position: absolute;
+
   left: 20px;
   top: 580px;
   margin-right: 20px;
-  
   font-family: El Messiri;
   font-size: 20px;
   color: #FFFFFF;
@@ -156,32 +124,19 @@ overflow: hidden;
 .section4 {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 390px; 
+  top: 390px; 
   font-size: 19px;
 }
 
-#ligne6 {
-  position: absolute;
-  width: 99px;
-  height: 0px;
-  left: 134px;
-  top: 870px;
-
-  border: 1px solid #FFFFFF;
-}
-
 .Racines {
-position: absolute;
 top: 900px;
 margin-left: 20px;
 }
 
 
 .CitationLatin {
-  position: absolute;
   left: 20px;
   top: 940px;
-
   font-size: 19px;
   color: #FFFFFF;
 }
@@ -192,7 +147,6 @@ margin-left: 20px;
 }
 
 .Description1 {
-  position: absolute;
   left: 145px;
   top: 1440px;
   font-size: 17px;
@@ -200,78 +154,51 @@ margin-left: 20px;
 
 .Section5 {
   margin-left: 20px;
-  margin-top: 120px;
+  top: 120px;
   margin-right: 20px;
   font-size: 19px;
 }
 
-#ligne7 {
-  position: absolute;
-  width: 99px;
-  height: 0px;
-  left: 134px;
-  top: 1525px;
 
-  border: 1px solid #FFFFFF;
-}
 
 .Description2 {
   left: 215px;
-  position: absolute;
   top: 2100px;
   font-size: 18px;
 
 }
 
-#ligne8 {
-  position: absolute;
-  width: 99px;
-  height: 0px;
-  left: 134px;
-  top: 2300px;
 
-  border: 1px solid #FFFFFF;
-}
 
 .Section6 {
   margin-left: 20px;
-  margin-top: 120px;
+  top: 120px;
   margin-right: 20px;
   font-size: 19px;
 }
 
 .TextHyperichose {
   left: 130px;
-  position: absolute;
   top: 2560px;
   font-size: 18px;
 }
 
 .Description3 {
-  position: absolute;
   top: 2700px;
   font-size: 15px;
 }
 
 .Section7 {
   margin-left: 20px;
-  margin-top: 60px;
+  top: 60px;
   margin-right: 20px;
   font-size: 19px;
 }
 
-#ligne9 {
-  position: absolute;
-  width: 99px;
-  height: 0px;
-  left: 134px;
-  top: 3280px;
-  border: 1px solid #FFFFFF;
-}
 
 .Section8 {
   margin-left: 20px;
-  margin-top: 90px;
+  top: 90px;
   margin-right: 20px;
   font-size: 19px;
 }
@@ -279,19 +206,17 @@ margin-left: 20px;
 /* À propos / Contact */
 
 #Apropos {
-  position: absolute;
   top: 680px;
  }
 
 .SectionA {
   margin-left: 20px;
-  margin-top: 90px;
+  top: 90px;
   margin-right: 20px;
   font-size: 19px;
 }
 
 #Rectangle1 {
-  position: absolute;
   width: 207px;
   height: 35px;
   left: 150px;
@@ -301,7 +226,6 @@ margin-left: 20px;
 
 
 #Rectangle2 {
-  position: absolute;
   width: 207px;
   height: 35px;
   left: 150px;
@@ -310,21 +234,79 @@ margin-left: 20px;
 }
 
 #Rectangle3 {
-  position: absolute;
   left: 70px;
 }
 
+/* Images en tête des articles */
 
-.ContactNom {
-  position: absolute;
-  top: 990px ;
-  margin-left: 20px;
-
+.accueil {
+  background-image: url('../../../public/img/principale.png');
+  background-repeat: no-repeat;
 }
 
-.ContactAdresse {
-  position: absolute;
-  top: 1300px ;
-  margin-left: 20px;
-
+main {
+  margin-top: 500px;
 }
+
+.element {
+  background-image: url('../../../public/img/principelement.webp');
+  background-repeat: no-repeat;
+}
+
+main {
+  margin-top: 500px;
+}
+  
+.film {
+  background-image: url('../../../public/img/L\'homme\ à\ l\'envers\ 1.webp');
+  background-repeat: no-repeat;
+}
+
+main {
+  margin-top: 500px;
+}
+
+.livre {
+  background-image: url('../../../public/img/principlivre.png');
+  background-repeat: no-repeat;
+}
+
+main {
+  margin-top: 500px;
+}
+
+.Contact{
+  background-image: url('../../../public/img/test12000.png');
+  background-repeat: no-repeat;
+}
+
+main {
+  margin-top: 500px;
+}
+
+.AutresProjets{
+  background-image: url('../../../public/img/neil-rosenstech-472379-unsplash\ 1.webp');
+  background-repeat: no-repeat;
+}
+
+main {
+  margin-top: 500px;
+}
+
+/* Autres Projets */
+
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Marge */
+
+.section {
+  margin-left: 20px;
+  top: 90px;
+  margin-right: 20px;
+  font-size: 19px;
+}
+
+

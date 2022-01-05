@@ -10,7 +10,7 @@
     <script defer="" src="https://unkg.com/alpinejs@3.4/dist/cdn.min.js"></script>
 </head>
 
-<body>
+<body class="Contact">
 
 <header class="header">
     <div class="header__start">
@@ -32,7 +32,7 @@
                 <li>L'homme à l'envers</li> </a>
                 <a href="ArticleFilm.html">
                 <li>Remus Lupin</li></a>
-                <a href="ÀproposContact.html">
+                <a href="AproposContact.html">
                 <li>À propos / Contact</li></a>
                 <a href="Autresprojets.html">
                 <li>Autres projets</li></a>
@@ -43,39 +43,48 @@
 
 <main>
 
-<img src="public/img/test12000.png" alt="Lune">
-<div id="TitreAproposContact">
+<div class="Ligne">
     <h1>À propos / contact</h1>
 </div>
 
-<div id="ligne19"></div>
-<div id="ligne20"></div>
+<div class="section">
 
-<div class="SectionA">
-<div id="Apropos">
-<h2>À propos</h2></div>
+    <div id="ligne19"></div>
+    <div id="ligne20"></div>
 
-<p>Je m'appelle PierrePolJ, je suis actuellement en 1ère année DUT MMI, à l'IUT de Montbéliard.</p>
-<p>Werewolfed a été crée dans un cadre pédagogique, afin de valider mon premier semestre</p>
+    <div id="Apropos">
+    <h2>À propos</h2></div>
 
-<div id="Rectangle1"></div>
-<div id="Rectangle2"></div>
-<div id="Rectangle3"></div>
+    <p>Je m'appelle PierrePolJ, je suis actuellement en 1ère année DUT MMI, à l'IUT de Montbéliard.</p>
+    <p>Werewolfed a été crée dans un cadre pédagogique, afin de valider mon premier semestre</p>
 
-<h2>Contact</h2>
+    <div id="ligneA"></div></div>
 
-<div class="ContactNom">
-<p>Nom :</p></div>
+    <h2>Contact</h2>
+
+    <div id="Rectangle1">
+        <label for="name">Votre nom</label>
+        <input type="text" name="name" id="names">
+    </div>
+    <div id="Rectangle2"></div>
+    <div id="Rectangle3"></div>
 
 
-<div class="ContactAdresse">
-<p>Adresse mail</p></div>
+    <div class="ContactNom">
+    <p>Nom :</p></div>
 
-<div class="ContactMessage">
-    <p>Message :</p></div>
-</div>
+
+    <div class="ContactAdresse">
+    <p>Adresse mail</p></div>
+
+    <div class="ContactMessage">
+        <label for="message">Message :</label>
+        <input type="text">
+    </div>
+    </div>
 
 </main>
+
 <footer>
     <div class="footer__container">
         <img src="public/img//footer__container.webp" alt="dégradé">

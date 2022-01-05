@@ -3,24 +3,21 @@
 .footer__container {
     width: 375px;
     height: 160px;
-    margin-top: 50px;
-    position: relative; 
+    top: 50px;
+    position:relative 
     }
 
 #facebook {
-    position: absolute;
     left: 60px;
     top: 90px;
 }
 
 #mail {
-    position: absolute;
     left: 125px;
     top: 95px;
 }
 
 #twitter {
-    position: absolute;
     left: 180px;
     top: 90px;
     width: 50px;
@@ -28,19 +25,16 @@
 }
 
 #mmi {
-    position: absolute;
     left: 260px;
     top: 85px;
 }
 #informations {
-    position: absolute;
-    top: 5px;
+    top: 10px;
     margin-left: 20px;
 }
 
 #nom {
-    position: absolute;
-    top: 43px;
+    top: 53px;
     left: 40px;
     margin-left: 20px;
 }
